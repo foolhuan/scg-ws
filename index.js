@@ -10,7 +10,7 @@ const { WebSocket, createWebSocketStream } = require('ws');
 const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
 // const projectPageURL = `https://www.google.com`;
-const uuid= (process.env.UUID||'f67fcd03-fe16-4831-9a95-a5ed9fde0bf8').replace(/-/g, "");
+const uuid= (process.env.UUID||'0671d780-3a71-4f59-9610-951e53d51618').replace(/-/g, "");
 const port= process.env.PORT||3000;
 
 // 创建HTTP服务
